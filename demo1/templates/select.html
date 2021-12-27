@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border=2>
+        <tr><td>SID</td><td>sname</td><td>marks</td><td>doj</td></tr>
+        
+    
+    <a href="{% url 'insert' %}"><button>insert</button></a>
+    <a href="{% url 'update' %}"><button>update</button></a>
+    <a href="{% url 'delete' %}"><button>delete</button></a>
+
+    {{res1}}
+    {{res2}}
+    {{res3}}
+    {{res4}}
+    {{res5}}
+</body>
+</html>
